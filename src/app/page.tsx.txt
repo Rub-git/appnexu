@@ -1,9 +1,5 @@
+import { redirect } from "next/navigation";
+
 export default function Home() {
-  return (
-    <main style={{padding:"40px",fontFamily:"sans-serif"}}>
-      <h1>Appnexu está funcionando 🚀</h1>
-      <p>Tu plataforma SaaS ya está online.</p>
-      <a href="/signup">Crear cuenta</a>
-    </main>
-  )
+  redirect("/marketing");
 }
